@@ -5,4 +5,4 @@ script: mvn clean verify
 
 branches:
   only:
-  - dev
+  - master
