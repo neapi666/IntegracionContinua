@@ -1,6 +1,7 @@
 # safelist
 language: java
-sudo: false
+sudo: true
+services: mysql
 script: mvn clean verify
 
 branches:
