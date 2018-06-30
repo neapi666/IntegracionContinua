@@ -1,7 +1,9 @@
 # safelist
 language: java
+jdk:
+  - oraclejdk8
 sudo: true
-script: ant test
+
 services:
   - mysql
 branches:
@@ -11,4 +13,3 @@ branches:
 before_install:
   - mysql -e 'CREATE DATABASE sistemadb;'
   - mysql -u root sistemadb < bd/sistemadb.sql
-install: ant deps
