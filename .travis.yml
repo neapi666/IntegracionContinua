@@ -2,6 +2,7 @@
 language: java
 install: ant deps
 sudo: true
+script: ant test
 
 services:
   - mysql
