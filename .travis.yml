@@ -1,4 +1,7 @@
 # safelist
+  before_install
+   - mysql -e 'CREATE DATABASE sistemadb;'
+   - mysql -u root -p sistemadb < sistemadb.sql
 language: java
 install: ant deps
 sudo: true
@@ -9,7 +12,3 @@ services:
 branches:
   only:
   - master
-
-  before_install
-   - mysql -e 'CREATE DATABASE sistemadb;'
-   - mysql -u root -p sistemadb < sistemadb.sql
