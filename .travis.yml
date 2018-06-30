@@ -10,5 +10,5 @@ branches:
 
 before_install:
   - mysql -e 'CREATE DATABASE sistemadb;'
-  - mysql -u root -p sistemadb < sistemadb.sql
+  - mysql -u root -p sistemadb < .\sistemadb.sql
 install: ant deps
