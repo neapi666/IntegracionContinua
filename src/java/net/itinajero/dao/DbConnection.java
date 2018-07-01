@@ -10,7 +10,7 @@ public class DbConnection {
     */
    static String bd = "sistemadb";
    static String login = "root";
-   static String password = "admin";
+   static String password = "291038";
    static String url = "jdbc:mysql://localhost/" + bd;
    // Esta variable va a guardar la conexion
    Connection conn = null;

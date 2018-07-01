@@ -26,12 +26,28 @@ public class SiteController extends HttpServlet {
 
         RequestDispatcher rd;        
         DbConnection conn = new DbConnection();
+        if(conn==null){
+            System.out.println("No se pudo conectar a la base de datos");
+        }
         VacanteDao vacanteDao = new VacanteDao(conn);
+        if(vacanteDao==null){
+            System.out.println(vacanteDao);
+            System.out.println("vacanteDao no funciona");
+        }
+        System.out.print(vacanteDao);
+        try{
         List<Vacante> lista = vacanteDao.getUltimas();
-        conn.disconnect();
+               conn.disconnect();
         request.setAttribute("ultimas", lista);
         rd = request.getRequestDispatcher("/index.jsp");
         rd.forward(request, response);
+        
+        }
+        catch(Exception e){
+            System.out.println(e.getMessage());
+            System.out.println("Error al traer datos");
+        }
+ 
     }
 
 }
