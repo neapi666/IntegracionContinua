@@ -1,0 +1,15 @@
+# safelist
+language: java
+jdk:
+  - oraclejdk8
+sudo: true
+
+services:
+  - mysql
+branches:
+  only:
+  - master
+
+before_install:
+  - mysql -e 'CREATE DATABASE sistemadb;'
+  - mysql -u root sistemadb < bd/sistemadb.sql

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/github/IntegracionContinua/src/java/net/itinajero/controller/VacanteController.java</file>
+            <file>file:/E:/github/IntegracionContinua/src/java/net/itinajero/model/Vacante.java</file>
+            <file>file:/E:/github/IntegracionContinua/web/WEB-INF/web.xml</file>
+            <file>file:/E:/github/IntegracionContinua/src/java/net/itinajero/model/Usuario.java</file>
+            <file>file:/E:/github/IntegracionContinua/src/java/net/itinajero/dao/DbConnection.java</file>
+            <file>file:/E:/github/IntegracionContinua/nbproject/project.xml</file>
+            <file>file:/E:/github/IntegracionContinua/src/java/net/itinajero/controller/SiteController.java</file>
+            <file>file:/E:/github/IntegracionContinua/web/index.jsp</file>
+            <file>file:/E:/github/IntegracionContinua/src/java/net/itinajero/controller/AdminController.java</file>
+            <file>file:/E:/github/IntegracionContinua/src/java/net/itinajero/dao/UsuarioDao.java</file>
+            <file>file:/E:/github/IntegracionContinua/nbproject/build-impl.xml~</file>
+            <file>file:/E:/github/IntegracionContinua/src/java/net/itinajero/dao/VacanteDao.java</file>
+            <file>file:/E:/github/IntegracionContinua/web/tinymce/skins/lightgray/skin.ie7.min.css</file>
+        </group>
+    </open-files>
+</project-private>
