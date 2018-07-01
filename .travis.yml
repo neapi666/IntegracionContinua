@@ -12,4 +12,4 @@ branches:
 
 before_install:
   - mysql -e 'CREATE DATABASE sistemadb;'
-  - mysql -u root sistemadb < bd/sistemadb.sql
+  - mysql -u root sistemadb < sistemadb.sql
