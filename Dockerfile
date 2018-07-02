@@ -158,7 +158,7 @@ RUN set -e \
 		exit 1; \
 	fi
 
-ADD dist/vacantes.war /usr/local/tomcat/webapps/
+ADD dist/vacantes.war /usr/local/tomcat/webapps/v/vacantes.war
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
