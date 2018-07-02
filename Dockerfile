@@ -7,10 +7,9 @@ RUN apt-get update && apt-get install -y lsb-release && \
     dpkg -i mysql-apt-config_0.8.4-1_all.deb && rm -f mysql-apt-config_0.8.4-1_all.deb && \
 
 # Install packages
-RUN apt-get update && \
-    apt-get -y install mysql-server pwgen supervisor && \
+RUN apt-get -y install mysql-server pwgen supervisor && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Add image configuration and scripts
 ADD run/start-mysqld.sh /start-mysqld.sh
