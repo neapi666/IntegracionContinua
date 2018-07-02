@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y lsb-release && \
 RUN apt-get update && \
     apt-get -y install mysql-server pwgen supervisor && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
 
 # Add image configuration and scripts
 ADD run/start-mysqld.sh /start-mysqld.sh
