@@ -1,1 +1,1 @@
-mysql -uadmin -p$MYSQL_PASS -e 'CREATE DATABASE foo CHARACTER SET UTF8'
+mysql -uadmin -p$MYSQL_PASS -e 'CREATE DATABASE sistemadb CHARACTER SET UTF8'
